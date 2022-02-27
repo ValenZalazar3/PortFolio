@@ -303,11 +303,12 @@
     /*--------IMG--------*/
     .html{
         grid-area: html;
-        background-image: url(./multimedia/html1.png);
+        background-image: url(./img/mrkg.png);
     }
     .javascript{
         grid-area: javascript;
-        background-image: url(./multimedia/javascript1.png);
+        background-image: url(./img/mercedeslight.jpg);
+        background-position: center;
     }
     .gitportfolio{
         grid-area: portfolio;
@@ -695,11 +696,11 @@
     /*--------IMG--------*/
     .html{
 
-        background-image: url(./multimedia/html1.png);
+        background-image: url(./img/mrkg.png);
     }
     .javascript{
 
-        background-image: url(./multimedia/javascript1.png);
+        background-image: url(./img/mercedeslight.jpg);
     }
     .gitportfolio{
         width: 87%;
