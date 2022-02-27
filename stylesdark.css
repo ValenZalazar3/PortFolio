@@ -1,0 +1,805 @@
+* {
+    margin: 0px;
+    padding: 0px; }
+
+@media screen and (min-width: 881px){
+    #body{
+        background-color: rgb(17, 17, 17);
+    }
+    #icono-menu{
+        position: fixed;
+        top: 150%;
+    }
+    .nav{
+        display: grid;
+        grid-template-areas: 
+        "fernando sobremi portfolio contacto toggleroff";
+        grid-template-columns: 62% 10% 10% 10% 8%;
+        grid-template-rows: 100%;
+        background-color: black;
+        opacity: 80%;
+        position: fixed;
+        width: 100%;
+        height: 3rem;
+        top: 0%;
+        z-index: 2;
+        text-align: center;
+        align-items: center;
+        box-shadow: 0px 0px 10px rgb(219, 219, 219);
+    }
+    .text{
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: white;
+        font-family: 'Redressed', cursive;
+    }
+    .toggleroff{
+        grid-area: toggleroff;
+        color: white;
+        font-family: 'Gideon Roman', cursive;
+        display: grid;
+        grid-template-areas: "p b";
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: 100%;
+    }
+    .icons{
+        display: grid;
+        grid-template-areas:
+        "."
+        "toggleroff"
+        "traductor"
+        ".";
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 30% 30% 20%;
+        text-align: center;
+        align-items: center;
+    }
+    .traductor{
+        grid-area: traductor;
+        color: white;
+        font-family: 'Gideon Roman', cursive;
+        display: grid;
+        grid-template-areas:"ing trad";
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: 100%;
+    }
+    .dark{
+        color: white;
+        grid-area: p;
+        font-size: 0.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0rem;
+        margin-left: 0.7rem;
+    }
+    .botton{
+        grid-area: b;
+        color: white;
+        margin-bottom: 0.1rem;
+        margin-right: 1rem;
+    }
+    .ing{
+        grid-area: ing;
+        font-size: 0.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0rem;
+        margin-left: 0.2rem;
+    }
+    .trad{
+        grid-area: trad;
+        color: white;
+        margin-right: 1rem;
+    }
+    .fernando{
+        grid-area: fernando;
+        text-align: left;
+        padding-left: 2rem;
+    }
+    .sobremi{
+        grid-area: sobremi;
+    }
+    .portfolio{
+        grid-area: portfolio;
+    }
+    .contacto{
+        grid-area: contacto;
+    }
+
+    /*BANNER*/
+    .imgbanner{
+        background-image: url(./multimedia/font-codigos.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 20rem;
+        width: 100%;
+        top: 0%;
+    }
+    .divbanner{
+        background: rgb(0,0,0);
+        background: linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(254,254,254,0) 100%);
+        height: 100%;
+        box-shadow: 0px 0px 20px rgb(226, 226, 226);
+    }
+    .h1banner{
+        color: white;
+        font-size: 3rem;
+        margin-left: 9rem;
+        padding-top: 6rem;
+        margin-bottom: 4.5rem;
+        font-family: 'Redressed', cursive;
+    }
+    .abanner{
+        text-decoration: none;
+        color: rgb(219, 219, 219);
+    }
+    .gitbanner{
+        margin-left: 12rem;
+    }
+    .linkbanner{
+        margin-left: 2rem;
+    }
+    .mailbanner{
+        margin-left: 2rem;
+    }
+    /*---------------CV-------------------------*/
+    .divcv{
+        position: fixed;
+        top: 80%;
+        left: 90%;
+        z-index: 2;
+    }
+    .acv{
+        border-radius: 100%;
+        box-shadow: 0px 0px 10px white;
+        padding: 1rem;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: black;  
+        font-family: 'Gideon Roman', cursive;
+        background-color: rgba(255, 255, 255, 0.815);
+    }
+    .acv:hover{
+        color:white;
+        background-color: rgba(29, 29, 29, 0.637);
+    }
+    /*-----------------------SECTION---------------------------*/
+    .sectionsobremi{
+        text-align: center;
+        border-top: 1px solid white;
+        width: 10rem;
+        margin-top: 3rem;
+        padding-top: 1.5rem;
+        margin-left: 42%;
+        font-family: 'Redressed', cursive;
+        color: white;
+    }
+    .sobremidiv{
+        display: grid;
+        grid-template-areas:
+        "sobremiimg sobremip"
+        "sobremiimg sobremip2";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        align-items: center;
+        justify-items: center;
+    }
+    .sobremiimg{
+        grid-area: sobremiimg;
+        background-image: url(./multimedia/foto\ de\ perfil\ P2.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 50%;
+        height: 17rem;
+        width: 17rem;
+        transition: all 300ms;
+        box-shadow: 0px 0px 10px rgb(233, 233, 233);
+    }
+    .sobremiimg:hover{
+        transform: scale(1.4) !important; 
+    }
+    .sobremip{
+        grid-area: sobremip;
+        text-indent: 2rem;
+        font-size: 1.1rem;
+        margin-top: 5rem;
+        margin-right: 3rem;
+        margin-bottom: 0rem;
+        text-align: justify;
+        font-family: 'Gideon Roman', cursive;
+        color: white;
+    }
+    .sobremip2{
+        grid-area: sobremip2;
+        text-indent: 2rem;
+        font-size: 1.1rem;
+        margin-right: 3rem;
+        text-align: justify;
+        font-family: 'Gideon Roman', cursive;
+        color: white;
+    }
+    /*PORTFOLIO*/
+    .sectionportfolio{
+        text-align: center;
+        border-top: 1px solid white;
+        width: 10rem;
+        margin-top: 3rem;
+        padding-top: 1.5rem;
+        margin-left: 42%;
+        font-family: 'Redressed', cursive;
+        color: white;
+    }
+    .divportfolio{
+        display: grid;
+        grid-template-areas:
+        "html borderht javascript"
+        "borderwl borderp borderwr"
+        "portfolio borderhb reactjs";
+        grid-template-columns: 49% 2% 49%;
+        grid-template-rows: 49% 2% 49%;
+        align-items: center;
+        justify-items: center;
+    }
+    .borderp{
+        grid-area: borderp;
+    }
+    .borderht{
+        grid-area: borderht;
+        border-left: 1px solid rgb(175, 175, 175);
+        box-shadow: 0px 0px 10px white;
+        height: 10rem;
+    }
+    .borderhb{
+        grid-area: borderhb;
+        border-left: 1px solid rgb(175, 175, 175);
+        box-shadow: 0px 0px 10px white;
+        height: 10rem;
+    }
+    .borderwr{
+        grid-area: borderwr;
+        border-top: 1px solid rgb(175, 175, 175);
+        box-shadow: 0px 0px 10px white;
+        width: 14rem;
+    }
+    .borderwl{
+        grid-area: borderwl;
+        border-top: 1px solid rgb(175, 175, 175);
+        box-shadow: 0px 0px 10px white;
+        width: 14rem;
+    }
+    .portimg{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 13rem;
+        width: 23rem;
+        box-shadow: 0px 0px 10px rgb(219, 219, 219);
+        transition: all 2000ms;
+        border-radius: 3%;
+    }
+    .portimg:hover{
+        transform: scale(1.11) !important; 
+        box-shadow: 0px 0px 40px rgb(21, 103, 255);
+    }
+    .cartportfolio{
+        padding: 2rem;
+        margin-top: 3rem;
+        text-align: center;
+        transition: all 300ms;
+    }
+    .cartleft{
+        margin-left: 3rem;
+    }
+    .cartright{
+        margin-right: 3rem;
+    }
+    .cartportfolio:hover{
+        transform: scale(1.15) !important; 
+    }
+    /*--------IMG--------*/
+    .html{
+        grid-area: html;
+        background-image: url(./multimedia/html1.png);
+    }
+    .javascript{
+        grid-area: javascript;
+        background-image: url(./multimedia/javascript1.png);
+    }
+    .gitportfolio{
+        grid-area: portfolio;
+        background-image: url(./multimedia/gitportfolio2.png);
+        width: 92%;
+    }
+    .reactjs{
+        grid-area: reactjs;
+    }
+    /*----------P----------*/
+    .titlecart{
+        font-family: 'Redressed', cursive;
+        font-size: 1.4rem;
+    }
+    .pport{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-family: 'Gideon Roman', cursive;
+        font-size: 1rem;
+        color: white;
+    }
+    .arepositorio{
+        text-decoration: none;
+    }
+    .htmlp{
+        grid-area: html;
+    }
+    .javascriptp{
+        grid-area: javascript;
+    }
+    .gitportfoliop{
+        grid-area: portfolio;
+    }
+    .reactjsp{
+        grid-area: reactjs;
+    }
+
+
+    /*FOOTER*/
+    .originfooter{
+        background-color: rgb(41, 41, 41);
+        box-shadow: 0px 0px 10px rgb(219, 219, 219);
+        padding-bottom: 3rem;
+        padding-top: 0.1rem;
+        margin-top: 3rem;
+    }
+    .footercontacto{
+        text-align: center;
+        border-top: 1px solid white;
+        width: 10rem;
+        margin-top: 3rem;
+        padding-top: 1.5rem;
+        margin-left: 42%;
+        font-family: 'Redressed', cursive;
+        color: white;
+    }
+    .divfooter{
+        display: grid;
+        grid-template-areas: "link git wpp mail";
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: 100%;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .estilosf{
+        text-decoration: none;
+        color: rgb(219, 219, 219);
+        font-family: 'Redressed', cursive;
+        font-size: 1.6rem;
+    }
+    .footerlink{
+        grid-area: link;
+    }
+    .footergit{
+        grid-area: git;
+    }
+    .footerwpp{
+        grid-area: wpp;
+    }
+    .footermail{
+        grid-area: mail;
+    }
+}
+
+/*--------------------- REPONSIVE --------------------------*/
+@media screen and (max-width: 880px){
+    #body{
+        background-color: rgb(17, 17, 17);
+    }
+    .icono-menu{
+        margin: 15px 15px;
+        position: fixed;
+        z-index: 11;
+
+    }
+    .icono-menu img{
+        vertical-align: top;
+        width: 35px;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.849);
+        border-radius: 100%;
+        border: 0.5px solid white;
+        box-shadow: 0px 0px 10px white;
+        padding: 0.3rem;
+    }
+    .cont-menu{
+        background-color: white;
+        box-shadow: 0px 0px 20px white;
+        width: 65%;
+        height: 100%;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        transition: all .5s ease;
+        z-index: 10;
+        opacity: 85%;
+    }
+    .cont-menu a{
+        color: black;
+        display: block;
+        font-size: 1.3rem;
+        text-decoration: none;
+        cursor: pointer;
+        z-index: 10;
+    }
+    .text{
+        padding-left: 1rem;
+        padding-bottom: 0rem;
+        width: 100%;
+    }
+    .active{
+        transform: translate(-600px);
+    }
+    .opacity{
+        background-color: rgba(255, 255, 255, 0.5);
+        transition: all .5s ease;
+    }
+    .nav{
+        display: grid;
+        grid-template-areas:
+        "."
+        "fernando"
+        "sobremi"
+        "portfolio"
+        "contacto"
+        "icons"
+        ".";
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 10% 10% 10% 10% 10% 30%;
+        font-family: 'Redressed', cursive;
+    }
+    .icons{
+        grid-area: icons;
+    }
+    .toggleroff{
+        grid-area: toggleroff;
+        color: rgb(255, 255, 255);
+        font-family: 'Gideon Roman', cursive;
+        display: grid;
+        grid-template-areas: "p b";
+        grid-template-columns: 28% 72%;
+        grid-template-rows: 100%;
+    }
+    .dark{
+        grid-area: p;
+        color: black;
+        font-size: 0.8rem;
+        margin-left: 1rem;
+        margin-top: 0.6rem;
+    }
+    .botton{
+        grid-area: b;
+    }
+    .traductor{
+        grid-area: traductor;
+        color: black;
+        font-family: 'Gideon Roman', cursive;
+        display: grid;
+        grid-template-areas: "ing trad";
+        grid-template-columns: 36% 64%;
+        grid-template-rows: 100%;
+    }
+    .nav-icono{
+        width: 1.4rem!important; 
+        height: 1.4rem!important; 
+    }
+    .ing{
+        grid-area: ing;
+        color: black;
+        font-size: 0.8rem;
+        margin-left: 1rem;
+        margin-top: 0.5rem;
+    }
+    .trad{
+        grid-area: trad;
+    }
+    .fernando{
+        grid-area: fernando;
+    
+    }
+    .sobremi{
+        grid-area: sobremi;
+    }
+    .portfolio{
+        grid-area: portfolio;
+    }
+    .contacto{
+        grid-area: contacto;
+    }
+
+
+    /*BANNER*/
+    .imgbanner{
+        background-image: url(./multimedia/foto\ de\ perfil\ P2.jpeg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 20rem;
+        width: 100%;
+        top: 0%;
+        border-radius: 0px 0px 200px 30px;
+    }
+    .divbanner{
+        background: rgb(0,0,0);
+        background: linear-gradient(45deg, rgba(0,0,0,1) 5%, rgba(254,254,254,0) 54%);
+        height: 100%;
+        box-shadow: 0px 0px 20px rgb(236, 236, 236);
+        border-radius: 0px 0px 200px 30px;
+    }
+    .h1banner{
+        color: white;
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        padding-top: 14rem;
+        margin-bottom: 0.5rem;
+        font-family: 'Redressed', cursive;
+    }
+    .abanner{
+        text-decoration: none;
+        color: white;
+    }
+    .gitbanner{
+        margin-left: 1.5rem;
+    }
+    .linkbanner{
+        margin-left: 0.6rem;
+    }
+    .mailbanner{
+        margin-left: 0.6rem;
+    }
+    /*---------------CV-------------------------*/
+    .divcv{
+        position: fixed;
+        top: 90%;
+        left: 80%;
+        z-index: 2;
+    }
+    .acv{
+        border-radius: 100%;
+        border: 0.5px solid white;
+        box-shadow: 0px 0px 10px white;
+        padding: 0.8rem;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.1rem;
+        color: black;  
+        font-family: 'Gideon Roman', cursive;
+        background-color: rgba(255, 255, 255, 0.76);
+    }
+    .acv:hover{
+        color:white;
+        background-color: rgba(58, 58, 58, 0.658);
+    }
+    /*-----------------------SECTION---------------------------*/
+    .sectionsobremi{
+        text-align: center;
+        border-top: 1px solid white;
+        width: 7rem;
+        margin-top: 4rem;
+        padding-top: 1.5rem;
+        margin-left: 36%;
+        font-family: 'Redressed', cursive;
+        color: white;
+    }
+    .sobremidiv{
+        align-items: center;
+        justify-items: center;
+    }
+    .sobremip{
+        grid-area: sobremip;
+        text-indent: 2rem;
+        font-size: 1.1rem;
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+        margin-bottom: 0rem;
+        text-align: justify;
+        font-family: 'Gideon Roman', cursive;
+        color: white;
+    }
+    .sobremip2{
+        grid-area: sobremip2;
+        text-indent: 2rem;
+        font-size: 1.1rem;
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+        text-align: justify;
+        font-family: 'Gideon Roman', cursive;
+        color: white;
+    }
+    /* ///////////////////////////    PORTFOLIO    //////////////////////////////   */
+    .sectionportfolio{
+        text-align: center;
+        border-top: 1px solid white;
+        width: 7rem;
+        margin-top: 2rem;
+        padding-top: 1.5rem;
+        margin-left: 36%;
+        font-family: 'Redressed', cursive;
+        color: white;
+    }
+    .divportfolio{
+        display: grid;
+        grid-template-areas:
+        "html"
+        "borderwl"
+        "javascript"
+        "borderp"
+        "portfolio"
+        "borderhb"
+        "reactjs";
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(7, auto);
+        align-items: center;
+        justify-items: center;
+    }
+
+    .borderp{
+        grid-area: borderp;
+        border-top: 1px solid white;
+        box-shadow: 0px 0px 10px white;
+        width: 14rem;
+    }
+    .borderhb{
+        grid-area: borderhb;
+        border-top: 1px solid white;
+        box-shadow: 0px 0px 10px white;
+        width: 14rem;
+    }
+
+    .borderwl{
+        grid-area: borderwl;
+        border-top: 1px solid white;
+        box-shadow: 0px 0px 10px white;
+        width: 14rem;
+    }
+    .portimg{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 8.5rem;
+        width: 100%;
+        box-shadow: 0px 0px 10px rgb(240, 240, 240);
+        transition: all 2000ms;
+        border-radius: 3%;
+    }
+    .portimg:hover{
+        transform: scale(1.11) !important; 
+        box-shadow: 0px 0px 40px rgb(21, 103, 255);
+    }
+    .cartportfolio{
+        padding: 1rem;
+        margin-top: 1rem;
+        text-align: center;
+        transition: all 300ms;
+    }
+    .cartportfolio:hover{
+        transform: scale(1.15) !important; 
+    }
+    /*---------DIV-CART----------*/
+    .html-div{
+        grid-area: html;
+    }
+    .javascript-div{
+        grid-area: javascript;
+    }
+    .gitportfolio-div{
+        grid-area: portfolio;
+    }
+    .reactjs-div{
+        grid-area: reactjs;
+    }
+    /*--------IMG--------*/
+    .html{
+
+        background-image: url(./multimedia/html1.png);
+    }
+    .javascript{
+
+        background-image: url(./multimedia/javascript1.png);
+    }
+    .gitportfolio{
+        width: 87%;
+        background-image: url(./multimedia/gitportfolio2.png);
+    }
+
+    /*----------P----------*/
+    .titlecart{
+        font-family: 'Redressed', cursive;
+        font-size: 1rem;
+        color: white;
+    }
+    .pport{
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        font-family: 'Gideon Roman', cursive;
+        font-size: 0.8rem;
+        color: white;
+    }
+    .arepositorio{
+        text-decoration: none;
+    }
+    .htmlp{
+        grid-area: html;
+    }
+    .javascriptp{
+        grid-area: javascript;
+    }
+    .gitportfoliop{
+        grid-area: portfolio;
+    }
+    .reactjsp{
+        grid-area: reactjs;
+    }
+
+
+    /* ///////////////////////////////////    FOOTER    ////////////////////////////////  */
+    .originfooter{
+        background-color: rgb(19, 19, 19);
+        box-shadow: 0px 0px 10px rgb(236, 236, 236);
+        padding-bottom: 1rem;
+        padding-top: 0.1rem;
+        margin-top: 2rem;
+    }
+    .footercontacto{
+        text-align: center;
+        border-top: 1px solid white;
+        width: 7rem;
+        margin-top: 2rem;
+        padding-top: 1.5rem;
+        margin-left: 36%;
+        font-family: 'Redressed', cursive;
+        color: white;
+    }
+    .divfooter{
+        display: grid;
+        grid-template-areas: "link git" "wpp mail";
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+    .estilosf{
+        text-decoration: none;
+        color: white;
+        font-family: 'Redressed', cursive;
+        font-size: 0.6rem;
+        margin-bottom: 2rem;
+    }
+    .footer-icono{
+        width: 1.5rem!important; 
+        height: 1.5rem!important; 
+    }
+    .banner-icono{
+        width: 1.2rem!important; 
+        height: 1.2rem!important; 
+    }
+
+    .footerlink{
+        grid-area: link;
+        margin-left: 2rem;
+    }
+    .footergit{
+        grid-area: git;
+        margin-right: 2rem;
+    }
+    .footerwpp{
+        grid-area: wpp;
+        margin-left: 2rem;
+    }
+    .footermail{
+        grid-area: mail;
+        margin-right: 2rem;
+    }
+}
