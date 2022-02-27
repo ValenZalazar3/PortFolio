@@ -35,12 +35,12 @@
         text-decoration: none;
         font-size: 1.5rem;
         color: black;
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
     }
     .toggleroff{
         grid-area: toggleroff;
         color: black;
-        font-family: 'Gideon Roman', cursive;
+        font-family: 'Roboto', sans-serif;
         display: grid;
         grid-template-areas: "p b";
         grid-template-columns: repeat(2,auto);
@@ -61,7 +61,7 @@
     .traductor{
         grid-area: traductor;
         color: black;
-        font-family: 'Gideon Roman', cursive;
+        font-family: 'Roboto', sans-serif;
         display: grid;
         grid-template-areas:"ing trad";
         grid-template-columns: repeat(2,auto);
@@ -109,7 +109,7 @@
     }
     /*BANNER*/
     .imgbanner{
-        background-image: url(./img/banner1.jpg);
+        background-image: url(./img/bannersol.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -130,7 +130,7 @@
         margin-left: 9rem;
         padding-top: 6rem;
         margin-bottom: 4.5rem;
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
     }
     .abanner{
         text-decoration: none;
@@ -162,7 +162,7 @@
         text-decoration: none;
         font-size: 1.5rem;
         color: white;  
-        font-family: 'Gideon Roman', cursive;
+        font-family: 'Roboto', sans-serif;
         background-color: rgba(29, 29, 29, 0.637);
     }
     .acv:hover{
@@ -177,7 +177,7 @@
         margin-top: 3rem;
         padding-top: 1.5rem;
         margin-left: 42%;
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
     }
     .sobremidiv{
         display: grid;
@@ -212,7 +212,7 @@
         margin-right: 3rem;
         margin-bottom: 0rem;
         text-align: justify;
-        font-family: 'Gideon Roman', cursive;
+        font-family: 'Roboto', sans-serif;
     }
     .sobremip2{
         grid-area: sobremip2;
@@ -220,7 +220,7 @@
         font-size: 1.1rem;
         margin-right: 3rem;
         text-align: justify;
-        font-family: 'Gideon Roman', cursive;
+        font-family: 'Roboto', sans-serif;
     }
     /*PORTFOLIO*/
     .sectionportfolio{
@@ -231,7 +231,7 @@
         padding-top: 1.5rem;
         margin-left: 42%;
         margin-bottom: 2rem;
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
     }
     .divportfolio{
         display: grid;
@@ -319,13 +319,13 @@
     }
     /*----------P----------*/
     .titlecart{
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
         font-size: 1.4rem;
     }
     .pport{
         margin-top: 1rem;
         margin-bottom: 1rem;
-        font-family: 'Gideon Roman', cursive;
+        font-family: 'Roboto', sans-serif;
         font-size: 1rem;
     }
     .arepositorio{
@@ -360,7 +360,7 @@
         margin-top: 2rem;
         padding-top: 1.5rem;
         margin-left: 42%;
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
     }
     .divfooter{
         display: grid;
@@ -375,7 +375,7 @@
     .estilosf{
         text-decoration: none;
         color: rgb(87, 86, 86);
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
         font-size: 1.6rem;
     }
     .footerlink{
@@ -453,7 +453,7 @@
         ".";
         grid-template-columns: 100%;
         grid-template-rows: 10% 10% 10% 10% 10% 10% 30%;
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
     }
     .icons{
         grid-area: icons;
@@ -461,7 +461,7 @@
     .toggleroff{
         grid-area: toggleroff;
         color: black;
-        font-family: 'Gideon Roman', cursive;
+        font-family: 'Roboto', sans-serif;
         display: grid;
         grid-template-areas: "p b";
         grid-template-columns: 28% 72%;
@@ -481,7 +481,7 @@
     .traductor{
         grid-area: traductor;
         color: black;
-        font-family: 'Gideon Roman', cursive;
+        font-family: 'Roboto', sans-serif;
         display: grid;
         grid-template-areas: "ing trad";
         grid-template-columns: 36% 64%;
@@ -518,7 +518,7 @@
 
     /*BANNER*/
     .imgbanner{
-        background-image: url(./multimedia/foto\ de\ perfil\ P2.jpeg);
+        background-image: url(./img/bannersol.jpgg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -540,7 +540,7 @@
         margin-left: 1rem;
         padding-top: 14rem;
         margin-bottom: 0.5rem;
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
     }
     .abanner{
         text-decoration: none;
@@ -571,7 +571,7 @@
         text-decoration: none;
         font-size: 1.1rem;
         color: white;  
-        font-family: 'Gideon Roman', cursive;
+        font-family: 'Roboto', sans-serif;
         background-color: rgba(29, 29, 29, 0.637);
     }
     .acv:hover{
@@ -586,7 +586,7 @@
         margin-top: 4rem;
         padding-top: 1.5rem;
         margin-left: 36%;
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
     }
     .sobremidiv{
         align-items: center;
@@ -600,7 +600,7 @@
         margin-left: 1.5rem;
         margin-bottom: 0rem;
         text-align: justify;
-        font-family: 'Gideon Roman', cursive;
+        font-family: 'Roboto', sans-serif;
     }
     .sobremip2{
         grid-area: sobremip2;
@@ -609,7 +609,7 @@
         margin-right: 1.5rem;
         margin-left: 1.5rem;
         text-align: justify;
-        font-family: 'Gideon Roman', cursive;
+        font-family: 'Roboto', sans-serif;
     }
     /* ///////////////////////////    PORTFOLIO    //////////////////////////////   */
     .sectionportfolio{
@@ -619,7 +619,7 @@
         margin-top: 2rem;
         padding-top: 1.5rem;
         margin-left: 36%;
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
     }
     .divportfolio{
         display: grid;
@@ -708,13 +708,13 @@
 
     /*----------P----------*/
     .titlecart{
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
         font-size: 1rem;
     }
     .pport{
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
-        font-family: 'Gideon Roman', cursive;
+        font-family: 'Roboto', sans-serif;
         font-size: 0.8rem;
     }
     .arepositorio{
@@ -749,7 +749,7 @@
         margin-top: 2rem;
         padding-top: 1.5rem;
         margin-left: 36%;
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
     }
     .divfooter{
         display: grid;
@@ -764,7 +764,7 @@
     .estilosf{
         text-decoration: none;
         color: rgb(87, 86, 86);
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
         font-size: 0.6rem;
         margin-bottom: 2rem;
     }

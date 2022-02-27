@@ -31,12 +31,12 @@
         text-decoration: none;
         font-size: 1.5rem;
         color: white;
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
     }
     .toggleroff{
         grid-area: toggleroff;
         color: white;
-        font-family: 'Gideon Roman', cursive;
+        font-family: 'Roboto', sans-serif;
         display: grid;
         grid-template-areas: "p b";
         grid-template-columns: repeat(2,auto);
@@ -57,7 +57,7 @@
     .traductor{
         grid-area: traductor;
         color: white;
-        font-family: 'Gideon Roman', cursive;
+        font-family: 'Roboto', sans-serif;
         display: grid;
         grid-template-areas:"ing trad";
         grid-template-columns: repeat(2,auto);
@@ -106,7 +106,7 @@
 
     /*BANNER*/
     .imgbanner{
-        background-image: url(./img/banner1.jpg);
+        background-image: url(./img/bannernoche.jpg);
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
@@ -126,7 +126,7 @@
         margin-left: 9rem;
         padding-top: 6rem;
         margin-bottom: 4.5rem;
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
     }
     .abanner{
         text-decoration: none;
@@ -156,7 +156,7 @@
         text-decoration: none;
         font-size: 1.5rem;
         color: black;  
-        font-family: 'Gideon Roman', cursive;
+        font-family: 'Roboto', sans-serif;
         background-color: rgba(255, 255, 255, 0.815);
     }
     .acv:hover{
@@ -171,7 +171,7 @@
         margin-top: 3rem;
         padding-top: 1.5rem;
         margin-left: 42%;
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
         color: white;
     }
     .sobremidiv{
@@ -207,7 +207,7 @@
         margin-right: 3rem;
         margin-bottom: 0rem;
         text-align: justify;
-        font-family: 'Gideon Roman', cursive;
+        font-family: 'Roboto', sans-serif;
         color: white;
     }
     .sobremip2{
@@ -216,7 +216,7 @@
         font-size: 1.1rem;
         margin-right: 3rem;
         text-align: justify;
-        font-family: 'Gideon Roman', cursive;
+        font-family: 'Roboto', sans-serif;
         color: white;
     }
     /*PORTFOLIO*/
@@ -227,7 +227,7 @@
         margin-top: 3rem;
         padding-top: 1.5rem;
         margin-left: 42%;
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
         color: white;
     }
     .divportfolio{
@@ -316,13 +316,13 @@
     }
     /*----------P----------*/
     .titlecart{
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
         font-size: 1.4rem;
     }
     .pport{
         margin-top: 1rem;
         margin-bottom: 1rem;
-        font-family: 'Gideon Roman', cursive;
+        font-family: 'Roboto', sans-serif;
         font-size: 1rem;
         color: white;
     }
@@ -358,7 +358,7 @@
         margin-top: 3rem;
         padding-top: 1.5rem;
         margin-left: 42%;
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
         color: white;
     }
     .divfooter{
@@ -374,7 +374,7 @@
     .estilosf{
         text-decoration: none;
         color: rgb(219, 219, 219);
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
         font-size: 1.6rem;
     }
     .footerlink{
@@ -456,7 +456,7 @@
         ".";
         grid-template-columns: 100%;
         grid-template-rows: 10% 10% 10% 10% 10% 10% 30%;
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
     }
     .icons{
         grid-area: icons;
@@ -464,7 +464,7 @@
     .toggleroff{
         grid-area: toggleroff;
         color: rgb(255, 255, 255);
-        font-family: 'Gideon Roman', cursive;
+        font-family: 'Roboto', sans-serif;
         display: grid;
         grid-template-areas: "p b";
         grid-template-columns: 28% 72%;
@@ -483,7 +483,7 @@
     .traductor{
         grid-area: traductor;
         color: black;
-        font-family: 'Gideon Roman', cursive;
+        font-family: 'Roboto', sans-serif;
         display: grid;
         grid-template-areas: "ing trad";
         grid-template-columns: 36% 64%;
@@ -520,7 +520,7 @@
 
     /*BANNER*/
     .imgbanner{
-        background-image: url(./multimedia/foto\ de\ perfil\ P2.jpeg);
+        background-image: url(./img/bannernoche.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -542,7 +542,7 @@
         margin-left: 1rem;
         padding-top: 14rem;
         margin-bottom: 0.5rem;
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
     }
     .abanner{
         text-decoration: none;
@@ -573,7 +573,7 @@
         text-decoration: none;
         font-size: 1.1rem;
         color: black;  
-        font-family: 'Gideon Roman', cursive;
+        font-family: 'Roboto', sans-serif;
         background-color: rgba(255, 255, 255, 0.76);
     }
     .acv:hover{
@@ -588,7 +588,7 @@
         margin-top: 4rem;
         padding-top: 1.5rem;
         margin-left: 36%;
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
         color: white;
     }
     .sobremidiv{
@@ -603,7 +603,7 @@
         margin-left: 1.5rem;
         margin-bottom: 0rem;
         text-align: justify;
-        font-family: 'Gideon Roman', cursive;
+        font-family: 'Roboto', sans-serif;
         color: white;
     }
     .sobremip2{
@@ -613,7 +613,7 @@
         margin-right: 1.5rem;
         margin-left: 1.5rem;
         text-align: justify;
-        font-family: 'Gideon Roman', cursive;
+        font-family: 'Roboto', sans-serif;
         color: white;
     }
     /* ///////////////////////////    PORTFOLIO    //////////////////////////////   */
@@ -624,7 +624,7 @@
         margin-top: 2rem;
         padding-top: 1.5rem;
         margin-left: 36%;
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
         color: white;
     }
     .divportfolio{
@@ -714,14 +714,14 @@
 
     /*----------P----------*/
     .titlecart{
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
         font-size: 1rem;
         color: white;
     }
     .pport{
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
-        font-family: 'Gideon Roman', cursive;
+        font-family: 'Roboto', sans-serif;
         font-size: 0.8rem;
         color: white;
     }
@@ -757,7 +757,7 @@
         margin-top: 2rem;
         padding-top: 1.5rem;
         margin-left: 36%;
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
         color: white;
     }
     .divfooter{
@@ -773,7 +773,7 @@
     .estilosf{
         text-decoration: none;
         color: white;
-        font-family: 'Redressed', cursive;
+        font-family: 'Roboto', sans-serif;
         font-size: 0.6rem;
         margin-bottom: 2rem;
     }
