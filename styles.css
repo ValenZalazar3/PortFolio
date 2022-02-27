@@ -312,11 +312,12 @@
     }
     .gitportfolio{
         grid-area: portfolio;
-        background-image: url(./multimedia/gitportfolio2.png);
+        background-image: url(./img/portfolio.png);
         width: 92%;
     }
     .reactjs{
         grid-area: reactjs;
+        background-image: url(./img/comingsoon.jpg);
     }
     /*----------P----------*/
     .titlecart{
@@ -704,9 +705,11 @@
     }
     .gitportfolio{
         width: 87%;
-        background-image: url(./multimedia/gitportfolio2.png);
+        background-image: url(./img/portfolio.png);
     }
-
+.reactjs{
+    background-image: url(./img/comingsoon.jpg);
+}
     /*----------P----------*/
     .titlecart{
         font-family: 'Roboto', sans-serif;
