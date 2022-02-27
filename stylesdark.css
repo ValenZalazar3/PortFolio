@@ -13,7 +13,7 @@
     .nav{
         display: grid;
         grid-template-areas: 
-        "fernando sobremi portfolio contacto toggleroff";
+        "valentin sobremi portfolio contacto toggleroff";
         grid-template-columns: 62% 10% 10% 10% 8%;
         grid-template-rows: 100%;
         background-color: black;
@@ -89,8 +89,8 @@
         color: white;
         margin-right: 1rem;
     }
-    .fernando{
-        grid-area: fernando;
+    .valentin{
+        grid-area: valentin;
         text-align: left;
         padding-left: 2rem;
     }
@@ -448,7 +448,7 @@
         display: grid;
         grid-template-areas:
         "."
-        "fernando"
+        "valentin"
         "sobremi"
         "portfolio"
         "contacto"
@@ -503,8 +503,8 @@
     .trad{
         grid-area: trad;
     }
-    .fernando{
-        grid-area: fernando;
+    .valentin{
+        grid-area: valentin;
     
     }
     .sobremi{
