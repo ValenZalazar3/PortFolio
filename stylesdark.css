@@ -106,9 +106,9 @@
 
     /*BANNER*/
     .imgbanner{
-        background-image: url(./multimedia/font-codigos.jpeg);
+        background-image: url(./img/banner1.jpg);
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top;
         background-size: cover;
         height: 20rem;
         width: 100%;
@@ -186,7 +186,7 @@
     }
     .sobremiimg{
         grid-area: sobremiimg;
-        background-image: url(./multimedia/foto\ de\ perfil\ P2.jpeg);
+        background-image: url(./img/Fotocv2.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
